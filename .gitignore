@@ -1,0 +1,7 @@
+.env
+videos/
+audios/
+jsons/
+embeddings.joblib
+response.txt
+__pycache__/

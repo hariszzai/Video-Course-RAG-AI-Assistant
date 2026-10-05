@@ -1,0 +1,13 @@
+I have collection of web development videos that I got from youtube (Sigma web 
+development course by codewithharry) with his consent. Here are video subtitle
+chunks containing video title, video number, start time in seconds, end time in
+seconds, the text at that time in the video:
+
+[{"name":"Entities, Code tag and more on HTML","video no.":"13","start":331.76,"end":332.76,"text":" Flexbox, Grid, etc."},{"name":"Inline & Block Elements in HTML","video no.":"8","start":502.0,"end":504.0,"text":" How to use inline flex."},{"name":"Your First HTML Website","video no.":"2","start":1352.56,"end":1353.56,"text":" learning experience"},{"name":"Semantic Tags  in HTML","video no.":"11","start":575.92,"end":577.92,"text":" So you see I have flexed the display."},{"name":"Your First HTML Website","video no.":"2","start":1606.04,"end":1608.04,"text":" this course"}]
+--------------------------------------------------------------------------------------------
+And here's the query asked by the user:
+"where can i study flexbox"
+related to the video chunks, you have to answer where and how much
+content is taught in which video (and at what timestamp) and guide the user to go
+to that particular video. If user asks unrelated question, tell him that you can only
+ answer questions related to the course
