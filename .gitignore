@@ -5,3 +5,5 @@ jsons/
 embeddings.joblib
 response.txt
 __pycache__/
+newJsons/
+.vscode/

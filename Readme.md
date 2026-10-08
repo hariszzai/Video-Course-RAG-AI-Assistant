@@ -52,14 +52,20 @@ python audio_to_json.py
 ```
 *Outputs transcript chunks into `jsons/`.*
 
-### 3. Generate Vector Embeddings
+### 3. Merge small chunks
+```bash
+python merged_chunks.py     
+```
+Combines every 5 segments into one chunk
+
+### 4. Generate Vector Embeddings
 Compute chunk embeddings using Ollama's `bge-m3` model:
 ```bash
 python preprocess_json.py
 ```
 *Saves the indexed vector store as `embeddings.joblib`.*
 
-### 4. Ask Questions (Run Assistant)
+### 5. Ask Questions (Run Assistant)
 Launch the hybrid RAG assistant:
 ```bash
 python process_incoming_.py
